@@ -51,11 +51,7 @@ function restartGameFunction() {
 endGameBtn.addEventListener("click", endGameFunction);
 
 function endGameFunction() {
-  var userConfirm = confirm("are you sure")
-  if(userConfirm){
-    window.close();
-  }else{
-    
-  }
-   
+   var win = window.open("", "_self");
+      win.close();
+       
 }
