@@ -54,10 +54,7 @@ endGameBtn.addEventListener("click", endGameFunction);
   var userConfirm = confirm("are you sure");
   if(userConfirm){
     window.close();
-  }else{
-    
+  }else{ 
   }
-   
-}
        
 }
