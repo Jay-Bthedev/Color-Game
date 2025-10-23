@@ -7,6 +7,7 @@ var card2 = document.querySelector(".div2");
 var card3 = document.querySelector(".div3");
 var card4 = document.querySelector(".div4");
 var card5 = document.querySelector(".div5");
+var card6 = document.querySelector(".div6");
 var mainSelector = document.querySelector("main");
 var restartGameBtn = document.querySelector(".restart-game");
 var endGameBtn = document.querySelector(".end-game");
@@ -41,6 +42,11 @@ card5.addEventListener("click", function (){
 mainSelector.style.backgroundColor = "violet";
 card5.innerHTML = mainSelector;
 card5.innerHTML = "Card 5";
+})
+card6.addEventListener("click", function (){
+mainSelector.style.backgroundColor = "darkslateblue";
+card6.innerHTML = mainSelector;
+card6.innerHTML = "Card 6";
 })
 restartGameBtn.addEventListener("click", restartGameFunction);
 
